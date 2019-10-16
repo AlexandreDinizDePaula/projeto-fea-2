@@ -1,0 +1,44 @@
+body{
+    min-width: 300px;
+    width: auto;
+}
+#jogadores{
+    display: block;
+    width: 700px;
+    margin: 0px auto 10px auto;
+}
+#campo{
+    display: block;
+    margin: 0px auto 0px auto;
+    background-image: url("_imagens/campo.png");
+    width: 700px;
+    height: 438px;
+}
+.zonaPosicao{
+    float: left;
+    margin-top: 1.5%;
+    margin-left: 2%;
+    width: 25%;
+    height: 95%;
+   
+}
+#dropGoleiro {
+    margin-top: 25%;    
+    width: 15%;
+    height: 20%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.blocoJogadores4{
+    margin:2% auto 2% auto;
+    width: 50%;
+    height: 24%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    
+}
+.blocoJogadores3{
+    margin:2% auto 2% auto;
+    width: 50%;
+    height: 32%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
