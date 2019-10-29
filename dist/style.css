@@ -50,7 +50,7 @@ button{
 #campo{
     display: block;
     margin: 0px auto 0px auto;
-    background-image: url("_imagens/campo.png");
+    background-image: url("/src/_imagens/campo.png");
     width: 700px;
     height: 438px;
 }

@@ -1,3 +1,29 @@
+import './_imagens/joaoleite.png'
+import './_imagens/taffarel.png'
+import './_imagens/victor.png'
+import './_imagens/joaoleite.png'
+import './_imagens/leonardosilva.png'
+import './_imagens/nelinho.png'
+import './_imagens/luizinho.png'
+import './_imagens/marcosrocha.png'
+import './_imagens/procopio.png'
+import './_imagens/afonso.png'
+import './_imagens/gilberto.png'
+import './_imagens/marcelooliveira.png'
+import './_imagens/zedomonte.png'
+import './_imagens/pauloisidoro.png'
+import './_imagens/toninho.png'
+import './_imagens/eder.png'
+import './_imagens/mario.png'
+import './_imagens/guilherme.png'
+import './_imagens/reinaldo.png'
+import './_imagens/dada.png'
+import './_imagens/marques.png'
+import './_imagens/ronaldinho.png'
+import './_imagens/campo.png'
+import './_imagens/logo.png'
+import './css/index.css'
+
 
 var array = [];
 var goleiro = [];
@@ -12,12 +38,16 @@ function dragstart_handler(ev){
 function dragover_handler(ev){
     ev.preventDefault();
 };
+// fiz a importação de um módulo simples, só com strings, porém, por algum motivo que
+// não consegui descobrir o porque não funciona mais a função mostrar()
+var nomes = require('../lib/nomes.js');
+
 
 function drop_handler(ev){
     ev.preventDefault();
     var data = ev.dataTransfer.getData("Text");
     ev.target.appendChild(document.getElementById(data));
-    if (data == "taffarel" || data == "victor" || data == "joaoleite"){
+    if (data == nomes.taf || data == nomes.vic || data == nomes.joao){
         goleiro.push(data);
     };
     if (data == "leonardosilva" || data == "marcosrocha" || data == "luizinho" || data == "procopio" || 
