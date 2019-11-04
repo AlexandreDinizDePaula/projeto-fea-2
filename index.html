@@ -1,6 +1,5 @@
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br"> 
 
 <head>
     <title>Tarefa Front-End Avançado</title>
@@ -9,57 +8,57 @@
 
 </head>
 
-<body>
+<body role="main">
     <header>
         <img src="_imagens/logo.png" alt="Logo do Atlético Mineiro" id="logo">
         
         <h1>Clube Atlético Mineiro</h1>
-        
+        <h2>Escale o Seu Melhor Galo de Todos os Tempos</h2> 
     </header>
 
-    <section id="jogadores">
+    <section id="jogadores" role="grid" aria-label="Selecione os Jogadores">
         <img src="_imagens/taffarel.png" class="jogador" id="taffarel" draggable="true"
-            ondragstart="dragstart_handler(event);"></img>
+            ondragstart="dragstart_handler(event);" alt="Foto do Taffarel"></img>
         <img src="_imagens/joaoleite.png" class="jogador" id="joao" draggable="true"
-            ondragstart="dragstart_handler(event);"></img>
+            ondragstart="dragstart_handler(event);" alt="Foto do João Leite"></img>
         <img src="_imagens/victor.png" class="jogador" id="victor" draggable="true"
-            ondragstart="dragstart_handler(event);"></img>
+            ondragstart="dragstart_handler(event);" alt="Foto do Victor"></img>
         <img src="_imagens/leonardosilva.png" class="jogador" id="leosilva" draggable="true"
-            ondragstart="dragstart_handler(event);"></img>
+            ondragstart="dragstart_handler(event);" alt="Foto do Leonardo Silva"></img>
         <img src="_imagens/nelinho.png" class="jogador" id="nelinho" draggable="true"
-            ondragstart="dragstart_handler(event);"></img>
+            ondragstart="dragstart_handler(event);" alt="Foto do Nelinho"></img>
         <img src="_imagens/luizinho.png" class="jogador" id="luizinho" draggable="true"
-            ondragstart="dragstart_handler(event);"></img>
+            ondragstart="dragstart_handler(event);" alt="Foto do Luizinho"></img>
         <img src="_imagens/marcosrocha.png" class="jogador" id="marcos" draggable="true"
-            ondragstart="dragstart_handler(event);"></img>
+            ondragstart="dragstart_handler(event);" alt="Foto do Marcos Rocha"></img>
         <img src="_imagens/procopio.png" class="jogador" id="procopio" draggable="true"
-            ondragstart="dragstart_handler(event);"></img>
+            ondragstart="dragstart_handler(event);" alt="Foto do Procópio Cardoso"></img>
         <img src="_imagens/afonso.png" class="jogador" id="afonso" draggable="true"
-            ondragstart="dragstart_handler(event);"></img>
+            ondragstart="dragstart_handler(event);"alt="Foto do Afonso Silva"></img>
         <img src="_imagens/gilberto.png" class="jogador" id="gilberto" draggable="true"
-            ondragstart="dragstart_handler(event);"></img>
+            ondragstart="dragstart_handler(event);" alt="Foto do Gilberto Silva"></img>
         <img src="_imagens/marcelooliveira.png" class="jogador" id="marcelo" draggable="true"
-            ondragstart="dragstart_handler(event);"></img>
+            ondragstart="dragstart_handler(event);"alt="Foto do Marcelo Oliveira"></img>
         <img src="_imagens/zedomonte.png" class="jogador" id="zedomonte" draggable="true"
-            ondragstart="dragstart_handler(event);"></img>
+            ondragstart="dragstart_handler(event);" alt="Foto do Zé do Monte"></img>
         <img src="_imagens/pauloisidoro.png" class="jogador" id="paulo" draggable="true"
-            ondragstart="dragstart_handler(event);"></img>
+            ondragstart="dragstart_handler(event);"alt="Foto do Paulo Isidoro"></img>
         <img src="_imagens/toninho.png" class="jogador" id="toninho" draggable="true"
-            ondragstart="dragstart_handler(event);"></img>
+            ondragstart="dragstart_handler(event);" alt="Foto do Toninho Cerezo"></img>
         <img src="_imagens/eder.png" class="jogador" id="eder" draggable="true"
-            ondragstart="dragstart_handler(event);"></img>
+            ondragstart="dragstart_handler(event);"alt="Foto do Éder"></img>
         <img src="_imagens/mario.png" class="jogador" id="mario" draggable="true"
-            ondragstart="dragstart_handler(event);"></img>
+            ondragstart="dragstart_handler(event);" alt="Foto do Mario de Castro"></img>
         <img src="_imagens/guilherme.png" class="jogador" id="guilherme" draggable="true"
-            ondragstart="dragstart_handler(event);"></img>
+            ondragstart="dragstart_handler(event);" alt="Foto do Guilherme"></img>
         <img src="_imagens/reinaldo.png" class="jogador" id="reinaldo" draggable="true"
-            ondragstart="dragstart_handler(event);"></img>
+            ondragstart="dragstart_handler(event);"alt="Foto do Reinaldo"></img>
         <img src="_imagens/dada.png" class="jogador" id="dada" draggable="true"
-            ondragstart="dragstart_handler(event);"></img>
+            ondragstart="dragstart_handler(event);"alt="Foto do Dadá Maravilha"></img>
         <img src="_imagens/marques.png" class="jogador" id="marques" draggable="true"
-            ondragstart="dragstart_handler(event);"></img>
+            ondragstart="dragstart_handler(event);"alt="Foto do Marques"></img>
         <img src="_imagens/ronaldinho.png" class="jogador" id="ronaldinho" draggable="true"
-            ondragstart="dragstart_handler(event);"></img>
+            ondragstart="dragstart_handler(event);"alt="Foto do Ronaldinho Gaúcho"></img>
     </section>
 
     <section id="campo">
@@ -105,10 +104,12 @@
             </div>
         </div>
     </section>
-    <button id="botão" onclick="mostrar();">Mostrar Time</button>
+    <button id="botão" onclick="mostrar();" role="button" aria-pressed="false" aria-label="Mostrar Time">
+        Mostrar Time</button>
     <div id="resultado"></div>
 
 </body>
 
 <script src="javascript.js"></script>
 
+</html>
