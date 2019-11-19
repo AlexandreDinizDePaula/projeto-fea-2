@@ -1,0 +1,17 @@
+{
+  "name": "EscaleSeuGalo",
+  "short_name": "Escale",
+  "theme_color": "#fcfdfe",
+  "background_color": "#000000",
+  "display": "standalone",
+  "Scope": "/",
+  "start_url": "/",
+  "icons": [
+            {
+             "src": "_imagens/logo.png",
+             "sizes": "72x72",
+             "type": "image/png"
+            }
+            ],
+  "splash_pages": null
+}

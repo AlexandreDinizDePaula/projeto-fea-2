@@ -1,52 +1,40 @@
 @charset "UTF-8";
-header{
+.cabecalho{                    /* Bloco  cabecalho*/
     background-color:  black;
     color: white;
     height: 90px;
 }
-h1{
+.cabecalho__titulo1{        /*Elemento do Bloco  cabecalho*/
     margin: 0;
     font-size: 3em;
     
 }
-h2{
+.cabecalho__titulo2{        /*Elemento do Bloco  cabecalho*/
     margin-top: 10px;
 }
-#logo{
+.cabecalho__logo{           /*Elemento do Bloco  cabecalho*/
     float: left; 
     margin-left: 1%;
 }
-#menu{
-    
-   display: block;
-}
-#menu ul{
-   list-style: none;
-   text-transform: uppercase;
-}
-#menu li{
-    font-size: 1.5em;
-    display: inline-block;
-    margin-left: 10px;
-}
-body{
+
+.corpo{                 /* Bloco  corpo*/
     margin: 0;
     
     background-color: rgb(44, 44, 44);
     
 }
-button{
+.corpo--button{            /* Modificador do bloco corpo*/
     display: block;
     padding: 5px;
     margin: 20px auto 20px auto;
     
 }
-#jogadores{
+.jogadores{                 /* Bloco de Jogadores*/
     display: block;
     width: 700px;
     margin: 20px auto 10px auto;
 }
-#campo{
+.campo{                 /* Bloco Corpo*/
     display: block;
     margin: 0px auto 0px auto;
     background-image: url("_imagens/campo.png");
@@ -60,34 +48,30 @@ button{
     font-weight: bolder;
     font: x-large;
 }
-#dropGoleiro {
+#dropGoleiro {              
     margin-top: 25%;    
     width: 15%;
     height: 20%;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 /* Foi utilizado a metodologia BEM*/
-.zonaPosicao{
+.zonaPosicao{               /* Bloco zonaPosicao*/
     float: left;
     margin-top: 1.5%;
     margin-left: 2%;
     width: 25%;
     height: 95%;  
 }
-.zonaPosicao__bloco4{
+.zonaPosicao__bloco4{            /* Elemento do bloco zonaPosicao*/
     margin:2% auto 2% auto;
     width: 50%;
     height: 24%;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
-.zonaPosicao__bloco3{
+.zonaPosicao__bloco3{                /* Elemento do bloco zonaPosicao*/
     margin:2% auto 2% auto;
     width: 50%;
     height: 32%;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 480px) {
-
-    
-  }
